@@ -1,0 +1,275 @@
+*{
+	font-family: 'Roboto Serif', serif;
+}
+h1{
+	text-align:center;
+	font-family: Georgia, Serif;
+}
+#login{
+	float:right;
+	padding:10px;
+}
+#img{
+	height:100px;
+}
+
+/* #pos { */
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* right: 0; */
+  /* width: 300px; */
+  /* border: 3px solid #73AD21; */
+  /* z-index:1 */
+  /* transform:translateY(25px); */
+/* } */
+
+.sur {
+  display:block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid red;
+  /* z-index:0; */
+}
+.bg-success{
+	border-radius:7px;
+	/* z-index:0; */
+}
+.btn-succes{
+	border-radius:7px;
+	background-color:#76C38F;
+}
+
+.color{
+	background-color:#76C38F;
+}
+.green:hover{
+	background-color:#76C38F;
+}
+
+.colors{
+	background-color:#76C38F;
+}
+
+
+
+.saaa{
+	color:#76C38F;
+}
+.ran{
+	color:F8F8F8;
+}
+
+hr.new2 {
+   border-top: 1px dashed;
+   
+}
+
+.striped-border { 
+
+ width: 95%;
+
+
+ }
+ 
+ .raj{
+	background-color:#ff4d94;
+ }
+ .lor{
+	 color:#ff4d94;
+ }
+ 
+.rad{
+	 border-radius:7px;
+ }
+ 
+
+
+.p-2 {
+    padding: 0.5rem!important;
+}
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.col-md >input{
+	border-radius:10px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.horizantal{
+	font-family:sans-sarif;
+	margin:100px auto;
+	font-size:40px;
+	max-width:600px;
+	position:relative;
+	
+}
+
+
+.horizantal:before{
+	content:"";
+	display:white;
+	width:30px;
+	background:white;
+	position:absolute;
+	left:0;
+	top:50%;
+	z-index:-2;
+	
+}
+
+
+.horizantal:after{
+	content:"";
+	display:white;
+	width:120px;
+	background:white;
+	position:absolute;
+	right:0;
+	top:50%;
+	z-index:-2;
+	
+}
+
+.suresh{
+	background-color:#76C38F;
+}
+
+
+.bcolo{
+	background-color:#313131;
+}
+.abhi{
+	color:#76C38F;
+}
+
+.ramu{
+	background-color:#222222;
+	border:none;
+	
+}
+.abi{
+	background-color:#6B6B6B;
+}
+.balu{
+	background-color:#2B2B2B;
+}
+.boda{
+	 border:5px solid #76C38F;
+}
+.bod:hover{
+	 border:5px solid #76C38F;
+}
+
+.demo-bg {
+    /* opacity: 0.9; */
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	/* background-color:#76C38F; */
+}
+.carousel-control-prev-icon{
+/* background-color: #76C38F; */
+}
+
+.block{
+  background-image: url('images/sri.jpg') no-repeat;
+  position: relative;
+}
+
+.block::before{
+  background-color: rgba(0, 0, 0, 0.37);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+
+.was{
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-out;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+
+.jasl{
+    margin: 0px;
+    background: #0e0e0e;
+    height: 100%;
+}
+.background-blur{
+	background:#cccccc;
+	opacity:0.3;
+	height:640px;
+	z-index :0;
+}
+.z-top{
+	z-index :1;
+}
+
+.bodybaground{
+	background: url(https://wallpaperaccess.com/full/643353.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+.headderbaground{
+    background: rgba(0, 0, 0, .6);
+    border-radius: 4px;
+}
+
+.aaaaa{
+	padding-right: var(--bs-gutter-x,.0rem);
+    padding-left: var(--bs-gutter-x,.0rem);
+}
+
+.hover{
+	background-color: #76C38F;
+	
+}
+
+.side_nav a:hover {
+    background-color: #76C38F;
+}
+
+
+
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {display: inline-block;}
+ul li:hover {
+	background:#76C38F; 
+	color:#2B2B2B !important;
+	border-radius:7px; 
+	}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+.position{
+	position: absolute;
+  width: 30px;
+  
+}
